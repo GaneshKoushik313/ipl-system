@@ -37,6 +37,15 @@ export default function Events(){
                     </tr>
                 </tbody>
             </table>
+            <div class="d-flex align-items-center font-weight-bold mt-2 justify-content-end">
+                <button  class="pagination-list mt-1 ml-2 pointer">
+                    <i class="fa fa-chevron-left pagination-part"  tabindex="0"></i>
+                </button>
+                <span class="px-2 fw-500 fs-14 mt-1">Showing 1 - 10 of 10</span>
+                <button class="pagination-list mt-1 mr-2 pointer">
+                    <i class="fa fa-chevron-right pagination-part"  tabindex="0"></i>
+                </button>
+            </div>
         </div>
     )
 }
